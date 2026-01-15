@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>App Financeiro</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #ffffff;
+    color: #000;
+}
+
+.container {
+    max-width: 420px;
+    margin: auto;
+    padding: 16px;
+}
+
+/* Topo */
+.header {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.app-icon {
+    width: 64px;
+    height: 64px;
+    background: #e0e0e0;
+    border-radius: 12px;
+}
+
+.app-info h1 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.app-info p {
+    color: #1a73e8;
+    font-size: 14px;
+    margin-top: 4px;
+}
+
+/* Avaliações */
+.stats {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.stats div {
+    flex: 1;
+}
+
+.stats strong {
+    display: block;
+    font-size: 14px;
+}
+
+.stats span {
+    font-size: 12px;
+    color: #666;
+}
+
+/* Botão */
+.install-btn {
+    background: #1a73e8;
+    color: #fff;
+    text-align: center;
+    padding: 14px;
+    border-radius: 8px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Ações */
+.actions {
+    display: flex;
+    justify-content: space-around;
+    font-size: 12px;
+    color: #1a73e8;
+    margin-bottom: 20px;
+}
+
+/* Abas */
+.tabs {
+    display: flex;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 16px;
+}
+
+.tabs div {
+    padding: 10px;
+    font-size: 14px;
+    color: #666;
+}
+
+.tabs .active {
+    color: #1a73e8;
+    border-bottom: 2px solid #1a73e8;
+}
+
+/* Cards fake */
+.cards {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.card {
+    flex: 1;
+    height: 120px;
+    background: #f1f3f4;
+    border-radius: 10px;
+}
+
+/* Seções */
+.section {
+    margin-bottom: 20px;
+}
+
+.section h2 {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.section p {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.4;
+}
+
+/* Rodapé */
+.footer {
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid #ddd;
+    padding: 10px 0;
+    font-size: 12px;
+    color: #666;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- Topo -->
+    <div class="header">
+        <div class="app-icon"></div>
+        <div class="app-info">
+            <h1>FinanPay: Conta & Crédito</h1>
+            <p>FinanPay Serviços Digitais</p>
+        </div>
+    </div>
+
+    <!-- Estatísticas -->
+    <div class="stats">
+        <div>
+            <strong>4,7★</strong>
+            <span>7,9 mil avaliações</span>
+        </div>
+        <div>
+            <strong>100 mi+</strong>
+            <span>downloads</span>
+        </div>
+        <div>
+            <strong>Livre</strong>
+            <span>Classificação</span>
+        </div>
+    </div>
+
+    <!-- Botão -->
+    <div class="install-btn">Instalar</div>
+
+    <!-- Ações -->
+    <div class="actions">
+        <span>Compartilhar</span>
+        <span>Adicionar à lista</span>
+    </div>
+
+    <!-- Abas -->
+    <div class="tabs">
+        <div class="active">Sobre</div>
+        <div>Segurança</div>
+        <div>Avaliações</div>
+    </div>
+
+    <!-- Cards -->
+    <div class="cards">
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+    </div>
+
+    <!-- Conteúdo -->
+    <div class="section">
+        <h2>Sobre este app</h2>
+        <p>
+            App criado para facilitar o controle financeiro, pagamentos,
+            transferências e acesso a crédito de forma rápida e segura.
+        </p>
+    </div>
+
+    <div class="section">
+        <h2>Atualizado em</h2>
+        <p>14 de janeiro de 2026</p>
+    </div>
+
+    <div class="section">
+        <h2>Segurança dos dados</h2>
+        <p>
+            Seus dados são protegidos com criptografia e não são compartilhados
+            com terceiros sem autorização.
+        </p>
+    </div>
+
+    <!-- Rodapé -->
+    <div class="footer">
+        <span>Jogos</span>
+        <span>Apps</span>
+        <span>Livros</span>
+        <span>Crianças</span>
+    </div>
+
+</div>
+
+</body>
+</html>
